@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Diagnostics;
+// Part of the Original Source from http://nonstop.pe.kr/dotnet/409
+// Code by R3C0D3r : cryptographcode@gmail.com
 
 namespace KorTextDiv
 {
@@ -27,10 +29,6 @@ namespace KorTextDiv
             //빈도 분석
 
         }
-        //.net에서 string형은 유니코드형식
-        //모든데이터가 unicode로 되어있다고 가정하고 시작한다.
-        //입력데이터가 유니코드가아닐경우 string.format로 유니코드로 변환해주어야한다.
-
         private static string Seperate(string data)
         {
             int a, b, c;//자소버퍼 초성중성종성순
